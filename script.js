@@ -7,10 +7,6 @@ function addProduct() {
 
   product.innerText = `${inputValue.value}`;
 
-  console.log(product);
-  console.log(product.value);
-  console.log(product.innerText.length);
-
   if (product.innerText.length < 1) {
     alert("You cannot enter empty value.");
   } else {
